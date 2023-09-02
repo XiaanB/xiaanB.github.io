@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     font-family: Arial;
+    background-image: url('mt cook.jpg');
 }
 
 .zone {
@@ -64,10 +65,11 @@ a {
  **********************************************************************/
 .container {
     /*show heigh: auto*/
-    height: 70vh; 
+    height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .cover {
