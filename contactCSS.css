@@ -13,11 +13,9 @@ p{color: red;}
 label{color: red;}
 /*option{color: red;}*/
 /*input{color: red;}*/
-/*li{color: red;}*/
+li{color: red;}
 
-* {
-  box-sizing: border-box;
-}
+
 input[type=email]{
 	width: 100%;
 	padding: 12PX;
@@ -76,6 +74,9 @@ input[type=reset]:hover {
   /*background-color: rgba(250,250,250,0.5);*/
   padding: 10px;
 }
+* {
+  box-sizing: border-box;
+}
 
 /* Create two columns that float next to eachother */
 .column {
@@ -100,4 +101,11 @@ input[type=reset]:hover {
     margin-top: 0;
   }
 }
+
+footer {
+    text-align: center;
+    background-color: #444;
+}
+
+
 

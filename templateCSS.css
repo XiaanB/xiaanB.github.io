@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
     font-family: Arial;
-    background-image: url('mt cook.jpg');
+    /*background-image: url('mt cook.jpg');*/
 
 }
 
@@ -61,20 +61,6 @@ a {
   top: 0;
   width: 100%;
 }
-/*.main-nav ul li a .active{
-background-color: #4CAF50;
-color: white;
-}
-
-.main-nav ul li a:hover:not(.active) {
-background-color: #555;
-color: white;
-}
-
-.main-nav ul li a:hover {
-background-color: #555;
-color: white;
-}*/
 
 /***********************************************************************
  *  Islands
@@ -206,7 +192,7 @@ footer {
     .fa {  
   padding: 20px;  
 text-align: center; 
-border-radius: 50%; 
+border-radius: 75%; 
   margin: 5px 2px;  
   font-size: 30px;  
   width: 50px;  
