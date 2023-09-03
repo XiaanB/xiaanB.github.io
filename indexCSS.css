@@ -1,8 +1,10 @@
-body {
-    margin: 0 auto;
-    font-family: Arial;
-    background-image: url('mt cook.jpg');
 
+
+img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 .zone {
