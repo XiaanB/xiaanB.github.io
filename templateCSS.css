@@ -61,7 +61,7 @@ a {
   top: 0;
   width: 100%;
 }
-.main-nav ul li a .active{
+/*.main-nav ul li a .active{
 background-color: #4CAF50;
 color: white;
 }
@@ -74,7 +74,7 @@ color: white;
 .main-nav ul li a:hover {
 background-color: #555;
 color: white;
-}
+}*/
 
 /***********************************************************************
  *  Islands
