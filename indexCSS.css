@@ -30,6 +30,7 @@ body {
     list-style: none;
     margin: 0;
     font-size: 0.7em;
+    /*position: fixed;*/
     z-index: 1;
     height: 80px;
 
@@ -68,7 +69,17 @@ a {
 .container {
     show heigh: auto
     height: 100vh; 
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content:center;    */
 }
+/* Three image containers (use 25% for four, and 50% for two, etc) 
+.column {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
@@ -82,6 +93,34 @@ a {
   clear: both;
   display: table;
 }
+/*.tours{
+    width: 540px;
+    margin-top:90px;
+    margin-left: auto; 
+    margin-right: auto;
+
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+.tours a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}*/
+
+}
+/*.islands{
+    margin: 50px;
+    grid-gap: 50px;
+}*/
 
 .cover {
     width: 30rem;
@@ -99,8 +138,13 @@ a {
 
 .box {
     background-color: #444;
+    /*padding: 130px;*/
     margin: 20px;
 }
+
+/*.box > img {
+    width: 100%;
+}*/
 
 .box:hover {
     -webkit-transform: rotate(-7deg);

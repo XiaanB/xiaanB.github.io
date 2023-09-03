@@ -1,0 +1,174 @@
+body {
+  background-image: url('mt cook.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/*Main North and South Iland CSS and Flex box-sizing*/
+.column {
+  float: left;
+  width: 50%;
+  padding: 120px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row{
+  display: flex;
+}
+
+.column{
+  flex: 50%;
+  padding: 20 px;
+}
+
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+/*.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: inline-block;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+*/
+/*Searh bar*/
+form {
+  background-color: rgba(60, 188, 141, 0.5);
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+      
+
+
+/*Travel tips CSS and Flex box-sizing*/
+  .column1 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row1{
+  display: flex;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(248, 168, 73, 0.8);
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*.row2{
+  display: flex;
+  text-align: center;
+}
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+
