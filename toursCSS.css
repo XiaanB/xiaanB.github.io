@@ -60,9 +60,9 @@ img {
 
 
 
-* {
+/** {
   box-sizing: border-box;
-}
+}*/
 
 .user {
   font-family: Arial;
@@ -166,15 +166,3 @@ img {
   text-align: center;
 }
 
-/***********************************************************************
- *  Footer
- **********************************************************************/
-footer {
-    text-align: center;
-    background-color: #444;
-}
-/*
-font-family: Arial;
-  padding: 20px;
-  background: rgba(248, 168, 73, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.5);*/
