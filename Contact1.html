@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+	<link rel="stylesheet" href="CommonCSS1.css">
+	<link rel="stylesheet" href="Contact1.css">
+	 <link rel="stylesheet" href=
+	"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />   
+	
+</head>
+<body>
+	<!--  Adding a top bar.-->
+	<div class="topnav" id="myTopnav">
+	  	<a href="Contact.html"class="active">Contact</a>
+	  	<!-- <div class="dropdown">
+	    	<button class="dropbtn">Islands
+	     	 	<i class="fa fa-caret-down"></i>
+	    	</button>
+	    <div class="dropdown-content">
+	      <a href="#">North Island</a>
+	      <a href="#">South Island</a>
+	      <a href="#">Both Island</a>
+	    </div> -->
+	<!-- </div> -->
+	<a href="Tours.html" >Tours</a>
+	<a href="index.html">Home</a>
+	<img align="left" src="NZLogo.jpg" width="104" height="104" >
+	<a href="CommoJava.js" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+
+	<h1>.</h1>
+	<h1>.</h1>
+	<!-- Adding a comment -->
+	
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <h1>Location Map</h1>
+	<p>Add a map with the adress - google</p>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.9879523934133!2d172.58410877730702!3d-43.50258688006191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d318b177c505f61%3A0xa80a8087a8973b60!2s119%20Brookside%20Terrace%2C%20Bryndwr%2C%20Christchurch%208053!5e0!3m2!1sen!2snz!4v1691965297021!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="email">Email Adress</label><br>
+        <input type="email" name="Email" required placeholder="johndoe@gmail.com" size="118"><br>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="newzealand">New Zealand</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+        <input type="reset" name="reset"><br>
+      </form>
+    </div>
+  </div>
+</div>
+
+<hr>
+<div class="container">
+  <div style="text-align:center">
+    <h2>Rigister</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <h1>Contact Adress</h1>
+	<li>Trave NZ</li>
+				<li>119 Brookside Terrace</li>
+				<li>Bryndwr</li>
+				<li>Christchurch</li>
+				<li>8053</li>
+				<li>New Zealand</li>
+				<li>travenz@gmail.com</li>
+				<li>(0064) 0278354777</li>
+				<li>
+					<a href="tel:(0064)0278354777">click to call customer support</a>
+				</li>
+    </div>
+    <div class="column">
+    	<h1>Would you like to recieve updates?</h1>
+      <form action="/action_page.php">
+        <label for="hear">How did you hear about us?</label><br><br>
+        <input type="radio" name="Heard" value="Google">Google<br>
+				<input type="radio" name="Heard" value="Word of mouth">Word of Mouth<br>
+				<input type="radio" name="Heard" value="Facebook">Facebook<br>
+				<input type="radio" name="Heard" value="Other">Other<br><br>
+        <label for="wpets">Are you travelling with pets?</label><br>
+        		<input type="checkbox" name="No" value="No">No<br>
+				<input type="checkbox" name="Cat" value="Cat">Cat<br>
+				<input type="checkbox" name="Dog" value="Dog">Dog<br>
+				<input type="checkbox" name="goldfish" value="goldfish">Gold Fish<br><br>
+        <label for="wkids">Are you travelling with children?</label><br>
+					<select name="kids" id="kids">
+						<option value="1" name="One" value="1">1 </option><br>
+						<option value="2" name="Two" value="2">2 </option><br>
+						<option value="3" name="Three" value="3">3 </option><br>
+				    </select><br>
+
+				   
+        <label for="register">Do you want to register or use the guest log in?</label><br>
+        	<input type="radio" name="register" value="Yes">Yes<br>
+			<input type="radio" name="register" value="No">No<br><br>
+        <input type="password" name="password" min="5" placeholder="*****"><br>
+        <label for="subject">Enter your password</label><br><br>
+
+		<input type="submit" name="Submit" value="Enter">
+		<input type="reset" name="reset"><br>
+      </form>
+    </div>
+  </div>
+</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button><br>
+	</h1>
+		<a href="#" class="fa fa-facebook"></a>  
+		<a href="#" class="fa fa-twitter"></a>  
+		<a href="#" class="fa fa-pinterest"></a>  
+		<a href="#" class="fa fa-linkedin"></a>  
+		<a href="#" class="fa fa-instagram"></a>  
+		<a href="#" class="fa fa-youtube"></a>  
+		<a href="#" class="fa fa-google"></a>  
+		<a href="#" class="fa fa-snapchat-ghost"></a>  
+		<a href="#" class="fa fa-skype"></a>  
+
+	<script src="ContactJava1.js"></script> 
+	<script src="Commonjava1.js"></script>
+</body>
+</html>

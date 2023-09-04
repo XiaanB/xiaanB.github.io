@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tours</title>
-	<link rel="stylesheet" href="templateCSS.css">
-	<link rel="stylesheet" href="toursCSS.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>tours</title>
+	<!-- <img align="right" src="D:\cb\WhiteCliffe\IT5017D Web Concepts\Assesment 2\Vs1\pictures\NZLogo.jpg" width="95" height="95"> -->
+
+	<link rel="stylesheet" href="CommonCSS1.css">
+	<link rel="stylesheet" href="TourCSS1.css">
 	<link rel="stylesheet" href=
 	"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
+
 <body>
-	<nav class="zone green">
-	    <ul class="main-nav">
-	        <li><a href="home.html">Home</a></li>
-	        <li><a href="Tours.html">Tours</a></li>
-	        <li><a href="about.html">About us</a></li>
-	        <li class="push"><a href="Contact.html">Contact</a></li>
-	        <!-- <a href="Tours.html" >Tours</a> -->
-	    </ul>
-  </nav>
-  <div class="container zone red">Cover!!!!
-  	<div class="tours">
+	<!--  Adding a top bar.-->
+	<div class="topnav" id="myTopnav">
+	  	<a href="Contact.html">Contact</a>
+	  	<!-- <div class="dropdown">
+	    	<button class="dropbtn">Islands
+	     	 	<i class="fa fa-caret-down"></i>
+	    	</button>
+	    <div class="dropdown-content">
+	      <a href="#">North Island</a>
+	      <a href="#">South Island</a>
+	      <a href="#">Both Island</a>
+	    </div> -->
+	<!-- </div> -->
+	<a href="Tours.html" class="active">Tours</a>
+	<a href="index.html">Home</a>
+	<img align="left" src="NZLogo.jpg" width="104" height="104">
+	<a href="CommoJava.js" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+		<h1>.</h1>
+		<h1>.</h1>
+		<div class="tours">
 			<h1 id="NI">North Island</h2><br>
 				<div class="container">
 						<img src="PacificCoastHighway.jpg" width="1280" height="642">
@@ -119,13 +134,23 @@
 							<div class="text"><h4>14 Days - 3189km</h4></div>
 						</div>		
 				</div>
+				<!-- <div class="container">
+						<img src="QueensTown.jpg" width="1280" height="642">
+						<div class="bottomright">
+							<div class="text"><h3>Queenstown to auckland- east coast</h3></div> 
+						</div>
+						<div class="bottomleft">
+							<div class="text"><h4>Best of the East Coast</h4></div>
+						</div>
+						<div class="topleft">
+							<div class="text"><h4>14 Days - 2265km</h4></div>
+						</div>		
+				</div> -->
 	</div>
-  </div>
 
-<hr>
+	<hr>
 
-  <div class="container zone red">Cover!!!!
-  	<div class="user">
+	<div class="user">
 		<span class="heading">User Rating</span>
 		<span class="fa fa-star checked"></span>
 		<span class="fa fa-star checked"></span>
@@ -193,23 +218,23 @@
 		  </div>
 		</div>
 	</div>
-  </div>
-  <hr>
-  <div class="zone blue grid-wrapper">
-    <div class="box zone"><img src="TP1.jpg" onclick="alert ('Rotaroa')"></div>
-    <div class="box zone"><img src="TP2.jpg" onclick="alert ('Cathedral cove')"></div>
-    <div class="box zone"><img src="TP3.jpg" onclick="alert ('Frans Joseph')"></div>
-    <div class="box zone"><img src="TP4.jpg" onclick="alert ('Queens Town')"></div>
-    <div class="box zone"><img src="TP5.jpg" onclick="alert ('Waitomomo')"></div>
-    <div class="box zone"><img src="TP6.jpg" onclick="alert ('Nelson')"></div>
-    <!-- <div class="box zone"><img src="./img/desktop_analytics_2.png"></div> -->
-    <!-- <div class="box zone"><img src="./img/server_safe_2.png"></div> -->
-  </div>
+<hr>
+	<div class="grid-container">
+	  <div class="grid-item"><img src="TP1.jpg" width="200" height="200" alt="" onclick="alert ('Rataroa')"></div>
+	  <div class="grid-item"><img src="TP2.jpg" width="200" height="200" alt="" onclick="alert ('Cathedral cove')"></div>
+	  <div class="grid-item"><img src="TP3.jpg" width="200" height="200" alt="" onclick="alert ('Frans Joseph')"></div>
+	  <div class="grid-item"><img src="TP4.jpg" width="200" height="200" alt="" onclick="alert ('Queens Town')"></div>
+	  <div class="grid-item"><img src="TP5.jpg" width="200" height="200" alt="" onclick="alert ('Waitomomo')"></div>
+	  <div class="grid-item"><img src="TP6.jpg" width="200" height="200" alt="" onclick="alert ('Nelson')"></div>
+	</div>
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Back to To</button><br>
 
-  <footer class="zone yellow">
-  		<a href="#" class="fa fa-facebook"></a>  
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Back to To</button><br>
+<hr>
+
+
+		<a href="#" class="fa fa-facebook"></a>  
 		<a href="#" class="fa fa-twitter"></a>  
 		<a href="#" class="fa fa-pinterest"></a>  
 		<a href="#" class="fa fa-linkedin"></a>  
@@ -217,10 +242,9 @@
 		<a href="#" class="fa fa-youtube"></a>  
 		<a href="#" class="fa fa-google"></a>  
 		<a href="#" class="fa fa-snapchat-ghost"></a>  
-		<a href="#" class="fa fa-skype"></a> 
+		<a href="#" class="fa fa-skype"></a>  
 
-	<script src="indexJava.js"></script> 
-  </footer>
-</div>
+	<script src="ToursJava1.js"></script> 
+	<script src="Commonjava1.js"></script>
 </body>
 </html>

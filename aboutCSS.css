@@ -1,0 +1,19 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+    background-image: url('NZ Tour2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.zone {
+    /*padding:30px 50px;*/
+    cursor:pointer;
+    color:#A84420;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
