@@ -60,9 +60,9 @@ img {
 
 
 
-/** {
+* {
   box-sizing: border-box;
-}*/
+}
 
 .user {
   font-family: Arial;
