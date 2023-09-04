@@ -50,6 +50,7 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  border-radius: 10%;
 }
 
 input[type=reset]{
@@ -58,6 +59,7 @@ input[type=reset]{
   	padding: 12px 20px;
   	border: none;
   	cursor: pointer;
+    border-radius: 10%;
 }
 
 input[type=submit]:hover {

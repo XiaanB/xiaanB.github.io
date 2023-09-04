@@ -110,10 +110,10 @@ a {
     transform: rotate(-7deg);
 }
 
-/*.box > img {
+.box > img {
     width: 100%;
     height: 100%;
-}*/
+}
 
 /***********************************************************************
  *  Footer
@@ -122,17 +122,6 @@ footer {
     text-align: center;
     background-color: #444;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
@@ -193,15 +182,11 @@ footer {
     .fa {  
   padding: 20px;  
 text-align: center; 
-<<<<<<< HEAD
-border-radius: 25%; 
-=======
-border-radius: 75%; 
->>>>>>> b41d19e2a7cffc84e55b8e2a8f857ae349eb8348
+border-radius: 50%; 
   margin: 5px 2px;  
   font-size: 30px;  
   width: 50px;  
-}  
+}   
 .fa-facebook {  
   background: #3B5998;  
   color: white;  
