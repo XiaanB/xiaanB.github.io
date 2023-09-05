@@ -38,9 +38,13 @@ input[type=reset]:hover {
   background-color: #8b0000;
 }
 form {
+  object-fit: cover;  
   background-color: rgba(60, 188, 141, 0.5);
   color: white;
   border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 100%;
+/*  max-width: 642px;*/
+  height: auto;
   
 }
  
@@ -142,12 +146,13 @@ a {
 }
 
 /***********************************************************************
- *  Grid Panel
+ *  Grid Panel travel tips
  **********************************************************************/
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
     grid-gap: 20px;
+    align-content: center;
 
 }
 
