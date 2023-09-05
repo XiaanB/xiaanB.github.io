@@ -1,7 +1,16 @@
 
 body{
     background-image: url('mt cook.jpg');
+    width: 100%;
+    height: 100%;
+/*  background-repeat: no-repeat;*/
+    background-size: cover;
 }
+
+
+
+
+
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -37,12 +46,12 @@ form {
 
  * {box-sizing:border-box}     
 
-.tours {
+/*.tours {
   width: 100%;
   height: 800px;
   object-fit: cover;
   object-position: bottom;
-}
+}*/
 
 .zone {
     /*padding:30px 50px;*/
@@ -104,9 +113,16 @@ a {
 /***********************************************************************
  *  Islands
  **********************************************************************/
+.responsive {
+  width: 100%;
+  max-width: 642px;
+  height: auto;
+}
+
 .container {
     show heigh: auto
     height: 100vh; 
+ }   
 .column {
   float: left;
   width: 45%;
@@ -129,7 +145,7 @@ a {
  **********************************************************************/
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
 
 }
@@ -150,6 +166,14 @@ a {
     width: 100%;
     height: 100%;
 }
+
+.responsive {
+  width: 100%;
+  max-width: 642px;
+  height: auto;
+}
+
+
 
 
 

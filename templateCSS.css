@@ -143,12 +143,12 @@ footer {
  **********************************************************************/
 
 .red {
-    /*background: #C655BE; /* Old browsers */*/
-    /*background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */*/
-    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */*/
-    /*background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */*/
-    /*background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */*/
-    /*background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */*/
+    /*background: #C655BE; /* Old browsers */
+    /*background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE00), color-stop(100%,#cf040400)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #C655BE00 0%,#cf040400 100%); /* Chrome10+,Safari5.1+*/ 
+    /*background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
+    /*background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
     /*background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */*/
 }
 
