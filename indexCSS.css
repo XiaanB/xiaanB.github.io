@@ -41,6 +41,7 @@ form {
   background-color: rgba(60, 188, 141, 0.5);
   color: white;
   border: 1px solid rgba(0, 0, 0, 0.8);
+  
 }
  
 
@@ -145,7 +146,7 @@ a {
  **********************************************************************/
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
     grid-gap: 20px;
 
 }
