@@ -32,13 +32,6 @@ body {
 
 * {box-sizing:border-box}
 
-/* Slideshow container */
-/*.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-}
 
 /* Hide the images by default */
 .mySlides {
