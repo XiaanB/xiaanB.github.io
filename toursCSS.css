@@ -19,7 +19,7 @@ img {
 
 .tours {
   max-width: 1000px;
-  position: relative;
+  position: center;
   margin: auto;
   padding: 50 px 50 px;
   background: rgba(51,51, 51, .5);
