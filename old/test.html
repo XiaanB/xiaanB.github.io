@@ -24,8 +24,33 @@
 		<img src="NorthIsland.jpg" alt="North" class="responsive"></a>
 		<img src="SouthIsland.jpg" alt="South" class="responsive"></a>	
 
-
+<hr>
 
   	</div>
+  	<input type="radio" name="choice-animals" id="choice-animals-dogs">
+	<label for="choice-animals-dogs">I like dogs more</label><br>
+  	<input type="radio" name="choice-animals" id="choice-animals-cats">
+	<label for="choice-animals-dogs">I like cats more</label>
+    
+	<div class="reveal-if-active">
+  		Anything you want in here.<br>
+  		<hr>
+
+
+
+
+ <form name="myform" onsubmit="return OnSubmitForm();">
+    name: <input type="text" name="name"><br>
+    email: <input type="text" name="email"><br>
+    <input type="radio" name="operation" value="1" >insert
+    <input type="radio" name="operation" value="2">update
+    <p>
+    <input type="submit" name="submit" value="save">
+    </p>
+ </form>
+	</div>
+
+
+  	<script src="TestJava.js"></script> 
 </body>
 </html>
