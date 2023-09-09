@@ -2,20 +2,13 @@
 function OnSubmitForm()
 {
   if(document.myform.Destination[0].checked == true){
-  	window.alert(5 + 6);
     document.myform.action ="Tours.html#NI";
   }
-  else
-  if(document.myform.Destination[1].checked == true)
-  {
+  else if (document.myform.Destination[1].checked == true) {
     document.myform.action ="Tours.html#SI";
   }
   else
-  if(document.myform.Destination[2].checked == true)
-  {
-    document.myform.action ="Tours.html#BI";
-  }
-  return true;
+    document.myform.action ="Tours.html#BI"; 
 }
 
 
