@@ -1,8 +1,9 @@
 
 function OnSubmitForm()
 {
-  if(document.myform.Destination[0].checked == true && object.budget[3].checked == true){
+  if(document.myform.Destination[0].checked == true ){
     document.myform.action ="Tours.html#NI";
+    // && object.budget[3].checked == true
   }
   else if (document.myform.Destination[1].checked == true) {
     document.myform.action ="Tours.html#SI";
