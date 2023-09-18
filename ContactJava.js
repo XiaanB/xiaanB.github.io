@@ -22,10 +22,13 @@ function OnSubmitForm()
 // 	windows.alert("Hello");
 // }else
 // windows.alert("no");
+  // var name = document.getElementById("fname");
+  // alert("Thank you for contacting us." + name);
+
 if (document.getElementById("fname") != ""  && document.getElementById("subject") != "") {
 	alert("Thank you for contacting us.");
 }else
-alert("no");
+alert("no, enter your name and message at least!");
 
 }
 

@@ -20,4 +20,10 @@ First I created the basic web sites with out any CSS, just the information that 
 	I discover that instead of uploading my files to git everyday that I can use desktop get. With that I can work anywhere and the main files are allways up to date with a history of the changed for when I needed to rollback a change. I also created a template html file that I used to just add the information to.
 
 	
-Loaded screen shots
+I have added some funtionality with java script and dom manipilation to the forms.
+	search box on the main page will now go to the selected area (Nort island, South Island or both islands) on the tours page.
+	Added a mailchimp button to the contact page register.
+	Updated the contact us form.
+		First name has to be 5 characters long at leat
+		Message has to 15 characters long.
+		Added JavaScript to pop up a message to say thank you are give the minimum that has to filled in.
